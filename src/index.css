@@ -1,0 +1,253 @@
+html {
+  font-family: sans-serif;
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: left;
+  background-color: #fff;
+}
+.navbar-brand{
+  font-size: 400%  !important;
+}
+.lock{
+  border-radius: 50% !important;
+  background-color: #212529 !important;
+}
+.login {
+  background: rgb(24, 24, 24) url("./img/v108_211.png");
+  content: "";
+  background-size: cover !important;
+  height: 100% !important;
+}
+
+
+
+.left{
+  background: #00197d78;
+}
+
+.skill{
+  border: #fff solid 4px;
+  border-radius: 50% !important;
+  width: 70px !important;
+  height: 70px !important;
+  display: flex !important;
+}
+
+.skill_gap{
+  color: #fff !important;
+  position: relative;
+  left: 32px !important;
+}
+
+.skill_img{
+  
+  width: 100px !important;
+  
+}
+.skills_desc{
+margin-left: -50% !important;
+}
+input,
+button,
+select,
+optgroup,
+textarea {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+button,
+input {
+  overflow: visible;
+}
+
+button,
+select {
+  text-transform: none;
+}
+
+select {
+  word-wrap: normal;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+
+
+.col {
+  -ms-flex-preferred-size: 0;
+  flex-basis: 0;
+  -webkit-box-flex: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  max-width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.img {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.wrap {
+  width: 100%;
+  overflow: hidden;
+  background: #fff;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 10px 34px -15px rgba(0, 0, 0, 0.24);
+  -moz-box-shadow: 0px 10px 34px -15px rgba(0, 0, 0, 0.24);
+  box-shadow: 0px 10px 34px -15px rgba(0, 0, 0, 0.24);
+}
+
+.img,
+.login-wrap {
+  width: 50%;
+}
+
+@media (max-width: 991.98px) {
+
+  .img,
+  .login-wrap {
+    width: 100%;
+  }
+  .skill{
+    margin-bottom: -1vw;
+    
+  }
+  .skills_desc{
+    margin-left: -100px !important;
+    }
+    .navbar-brand{
+      font-size: 200%  !important;
+    }
+    h5{
+      font-size: 20px !important;
+    }
+    p{
+      font-size: 10px !important;
+    }
+    .lock{
+      background-color: transparent !important;
+    }
+}
+
+@media (max-width: 767.98px) {
+  .wrap .img {
+    height: 250px;
+  }
+}
+
+.login-wrap {
+  position: relative;
+  background: #fff h3;
+ font-weight: 300;
+}
+
+.form-group {
+  position: relative;
+}
+
+.form-group .label {
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #000;
+  font-weight: 700;
+}
+
+.form-group a {
+  color: gray;
+}
+
+.form-control {
+  height: 48px;
+  background: #fff;
+  color: #000;
+  font-size: 16px;
+  border-radius: 5px;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.form-control:focus,
+.form-control:active {
+  outline: none !important;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border: 1px solid #e3b04b;
+}
+
+
+
+/* Hide the browser's default checkbox */
+
+/* Create the checkmark/indicator (hidden when not checked) */
+
+
+.btn {
+  cursor: pointer;
+  box-shadow: none !important;
+  font-size: 15px;
+  padding: 10px 20px;
+}
+
+.btn:hover,
+.btn:active,
+.btn:focus {
+  outline: none;
+}
+
+.btn.btn-primary {
+  background: #4b88e3 !important;
+  border: 1px solid #4b94e3 !important;
+  color: #fff !important;
+}
